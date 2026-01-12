@@ -1,4 +1,4 @@
-# <img src="https://github.com/user-attachments/assets/660efd96-ca6c-47f7-b98f-42cb866e241f" width="40" style="vertical-align: text-bottom;"/> Decision Tree–Based Trade Pattern Mining Pipeline
+# <img src="https://github.com/user-attachments/assets/660efd96-ca6c-47f7-b98f-42cb866e241f" width="40" style="vertical-align: text-bottom;"/> Mining Market Patterns Using Renko Dataset
 
 ## <img src="https://github.com/user-attachments/assets/dcdcffb4-c4e2-40ee-84cc-aca8612d257e" width="30px">Summary
 
