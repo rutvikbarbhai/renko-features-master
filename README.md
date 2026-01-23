@@ -4,6 +4,47 @@
 This repository implements an end-to-end quantitative machine learning pipeline developed during the Xcitium–NuFintech Internship. 
 The project focuses on transforming raw financial features into interpretable, statistically validated, and production-ready trading patterns using leakage-safe feature engineering, decision tree–based clustering, and rigorous multi-stage validation using renko dataset . The core philosophy of this project is robustness over complexity — prioritizing explainability, out-of-sample reliability, and temporal stability rather than black-box performance.
 
+## <img src="https://github.com/user-attachments/assets/f3dcee8e-e008-457a-97fb-d3848b425713" height="30px" style="vertical-align:text-bottom;"> Repository Contents
+
+```bash
+📁 renko-features-master/
+├── 📁.ipynb_checkpoints
+│    ├── module0_files_fetching_run_locally-checkpoint.py
+│    └── module2_tsfresh_features_v4-checkpoint.py
+├── 📁 config
+│    └── pipeline_config.txt 
+├── 📁 core
+│    ├── __init__.py
+│    ├── comparison.ipynb
+│    ├── db_decorators.py
+│    ├── logs.py
+│    └── settings.py
+├── 📁 data
+│    └── storage.py
+├── 📁 tests
+│    ├── __init__.py
+│    └── test_apply_dynamic_features.py
+├── 📁 modules /  
+│   │   ├── module0_files_fetching_run_locally.py
+│   │   ├── module1_comb_file_creation.py
+│   │   ├── module2_tsfresh_features_v3.py
+│   │   ├── module2_tsfresh_features_v4.py
+│   │   ├── module3_data_preparation.py
+│   │   ├── module4_feature_reduction.py
+│   │   ├── module5_with_hyperparameter_tuning.py
+│   │   ├── module6_cluster_analysis.py
+│   │   ├── module7_rule_extraction.py
+│   │   ├── module8_rule_analysis_and_pattern_detection.py
+│   │   ├── module9_backtesting.py
+│   │   └── module10_walkforward.py
+│   ├── .flake8
+│   └── Dockerfile
+├── config.json
+├── requirements.txt
+├── tsfresh_features.py
+└── 📄 README.md
+
+```
 
 ## <img src="https://github.com/user-attachments/assets/f03f321f-8340-452b-b82a-33f487bb52a4" width="28" style="vertical-align: text-bottom;"/> MODULE 1: FEATURE ENGINEERING & SELECTION
 
